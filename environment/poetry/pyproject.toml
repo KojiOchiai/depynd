@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "maholoai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Jinja2 = "^2.11.3"
+xlrd = "^2.0.1"
+openpyxl = "^3.0.7"
+
+[tool.poetry.dev-dependencies]
+beautifulsoup4 = "*"
+imagecodecs = "*"
+joblib = "*"
+luigi = "*"
+matplotlib = "*"
+numpy = "*"
+plotly = "*"
+protobuf = "*"
+schedule = "*"
+scikit-image = "*"
+scikit-learn = "*"
+scipy = "*"
+seaborn = "*"
+sympy = "*"
+toolz = "*"
+flake8 = "^3.9.0"
+mypy = "^0.812"
+ipython = "^7.21.0"
+html-reports = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
